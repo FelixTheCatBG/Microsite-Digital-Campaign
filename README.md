@@ -7,4 +7,5 @@ For this project our group will be working with Modrehjaelpen (Mother’s Aid), 
 
 According to the requirements that have been given to us, the team’s task is to make digital campaign including a fully operational micro site and a video with a clear story message and idea. 
 
+University Project
 2015
