@@ -1,0 +1,253 @@
+@font-face {
+    font-family: "Open Sans",sans-serif;
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "Open Sans",sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body, h1, h2, h3, h4, , h6 {
+     font-family: "Open Sans",sans-serif;
+    color: #333333; 
+    
+}
+
+
+
+p {
+    font-family: "Open Sans",sans-serif;
+}
+
+body {
+    font-size: 16px;
+    background-color: #ffffff;
+    
+}
+
+
+
+#mainLogo {
+    padding-top: 3%;
+}
+
+.img-responsive-center {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+
+/*
+ * Sidebar
+ */
+
+/* Hide for mobile, show later */
+.sidebar {
+    display: none;
+}
+@media (min-width: 1024px) {
+    .sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1000;
+        display: block;
+        overflow-x: hidden;
+        overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+        background-color: #333333;
+        font-size: 1.5em;
+        
+        -moz-box-shadow:    0px 0px 1px 2px #282828;
+        -webkit-box-shadow: 0px 0px 1px 0px #282828;
+        box-shadow:         0px 0px 5px 2px #282828;
+        
+        width: 280px; /* Avoid collapsing "Two Dudes Coding" */
+    }
+    .sidebar-footer {
+        width:auto;
+        padding-left: 20px;
+        
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+    margin-right: -20px;
+    margin-bottom: 3px;
+    margin-left: -20px;
+}
+.nav-sidebar > li > a {
+    padding-right: 20px;
+    padding-left: 40px;
+    color: #fff;
+}
+.nav-sidebar > li > a:hover {
+    color: #d70947;
+    background-color: #F1F1F1;
+}
+.nav-sidebar > .active > a {
+    color: #d70947;
+    background-color: #F1F1F1;
+}
+.ContactInfo {
+    color: #6D6D6D;
+    font-size: 13px;
+    margin: 15px;
+    margin-left: 40px;
+}
+.navbarSpanImg {
+    width: 30px;  
+    height: 55px;
+    margin-right: 0px;
+}
+
+ul a li{
+    color: white;
+    text-decoration: none;
+    display: inline;
+}
+
+ul a li span {
+    margin:0 5px 0 5px;
+}
+
+/*
+ * Mobile Navigation
+ */
+
+.navbar-brand {
+    padding: 15px 13px;
+}
+
+
+@media (min-width: 1024px) { /* Hide for desktop, show on mobile */
+    .navbar {
+        display: none;
+    }
+}
+
+.navbar-inverse .navbar-nav>li{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a{color:#ffffff;}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #d70947;
+   
+}
+
+
+a{color:#ffffff;text-decoration:none;}
+a:hover,a:focus{color:#d70947;text-decoration:none;}
+/*
+ * Main content padding and margin
+ */
+
+@media (min-width: 1024px) {
+    .main {
+        padding-left: 0px;
+        margin-left: 280px
+    }
+}
+
+
+/*
+ * Sections
+ */
+
+#firstSection, #secondSection,#thirdSection, #fourthSection,  {
+    margin-bottom: 3px; /* Fixes space between sections showing <body>'s Background-color */
+}
+
+/* styling for firstSection */
+
+#firstSection{
+    background-color: #ffffff ;
+}
+
+
+
+/* styling for secondSection */
+
+#secondSection{
+    background-color: #B00A1F;
+}
+
+    #secondSection a {
+        color: #d9534f;
+        font-weight: bold;
+    }
+
+#thirdSection{
+    background-color: #ffffff ;
+}
+
+
+
+/* styling for secondSection */
+
+#fourthSection{
+    background-color: #B00A1F;
+}
+
+    #fourthSection a {
+        color: #d9534f;
+        font-weight: bold;
+    }
+    
+
+    
+
+    ul li h4 {
+        color: #d9534f;
+    }
+
+    p a {
+        color: #d9534f;
+    }
+     /* Social Icons */
+    
+    #FacebookIcon, /*#TwitterIcon, #YoutubeIcon ,#FAcebookIcon*/ {
+        
+        margin-left: 2px;
+    }
+
+    #FacebookIcon:hover, #TwitterIcon:hover, #YoutubeIcon:hover,#TumblrIcon:hover,#PinterestIcon:hover {
+        opacity: 0.4;
+    }
+
+.navbar-static-bottom{
+
+    background-color: #333333;
+    color:#6D6D6D;
+}
+
+.mainlink{
+    text-decoration:underline;
+     font-size:12px; 
+     color:#6D6D6D;
+
+}
+
+span.required{
+      color:#e23b3d;
+    }
+
+    .widg{
+        margin-bottom: 5px;
+    }
